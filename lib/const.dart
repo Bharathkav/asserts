@@ -1,0 +1,9 @@
+String login = "Login";
+String entermail = "Enter the E-mail";
+String enterpassword = "Enter the Password";
+String donthave = "Don't have Account ?";
+String registerText = "Register Here";
+String otpgenrate = 'Generate otp';
+String enterotp = 'Enter the otp';
+String verifyotp = "verify otp";
+String appname = "Assert Around You";

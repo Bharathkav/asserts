@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "429133381806",
+    "project_id": "assertsaroundyou",
+    "storage_bucket": "assertsaroundyou.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:429133381806:android:d734cb36db4bcf0d1e2d3f",
+        "android_client_info": {
+          "package_name": "com.example.assertaroundyou"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "429133381806-n65j8mfmm4cu3l5vaicaa3erfasrfuqi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO7nbHeNOpeRz4du0mG72W70TmsOrflKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "429133381806-n65j8mfmm4cu3l5vaicaa3erfasrfuqi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
