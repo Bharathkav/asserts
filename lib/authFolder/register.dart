@@ -7,11 +7,9 @@ class Register extends StatelessWidget {
   Register({Key? key}) : super(key: key);
   final TextEditingController _createmail = TextEditingController();
   final GlobalKey<FormState> formkey = GlobalKey<FormState>();
-  // EmailAuth emailAuth =  new EmailAuth(sessionName: "Sample session");
 
   @override
   Widget build(BuildContext context) {
-    // final TextEditingController _createmail = TextEditingController();
     EmailAuth emailAuth = EmailAuth(sessionName: "Team Asserst Around You");
     return SingleChildScrollView(
       child: SafeArea(
@@ -50,7 +48,7 @@ class Register extends StatelessWidget {
   String? _validator(formString) {
     if (formString == null) {
       return "please enter mail";
-    } else if (EmailValidator.validate(formString)) {
+    } else if (!EmailValidator.validate(formString)) {
       return "please enter the valid Email";
     } else {
       return null;
