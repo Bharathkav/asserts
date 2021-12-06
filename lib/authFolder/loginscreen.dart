@@ -14,7 +14,6 @@ class LoginScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     User? user = FirebaseAuth.instance.currentUser;
-
     return SafeArea(
       child: SingleChildScrollView(
         child: Scaffold(

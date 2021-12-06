@@ -50,7 +50,7 @@ class Register extends StatelessWidget {
   String? _validator(formString) {
     if (formString == null) {
       return "please enter mail";
-    } else if (!formString.EmailValidator()) {
+    } else if (EmailValidator.validate(formString)) {
       return "please enter the valid Email";
     } else {
       return null;
