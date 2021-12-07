@@ -15,10 +15,10 @@ class Myapp extends StatelessWidget {
 //User? user = FirebaseAuth.instance.currentUser;
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Asserts Around You",
-     home: Wapper(),
+      initialRoute:(FirebaseAuth.instance.currentUser== null)? '/login':'/',
       onGenerateRoute: RouteGenerator.generateRoute,
     );
   }

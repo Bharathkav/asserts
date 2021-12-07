@@ -2,6 +2,7 @@ import 'package:assertaroundyou/const.dart';
 import 'package:flutter/material.dart';
 import 'package:email_auth/email_auth.dart';
 import 'package:email_validator/email_validator.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 
 class Register extends StatelessWidget {
   Register({Key? key}) : super(key: key);
@@ -29,7 +30,9 @@ class Register extends StatelessWidget {
                           recipientMail: _createmail.value.text, otpLength: 5);
                       if (result == true) {
                         Navigator.of(context).pushNamed('/otp');
-                      } else {}
+                      } else {
+                    
+                      }
                     }
                   },
                   child: Text(
